@@ -1,0 +1,34 @@
+{
+  "name": "signup-nuxt",
+  "version": "1.0.0",
+  "description": "nuxt version of signup password strength demo",
+  "author": "Don Livingston",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlivingston/signup-nuxt.git"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "bootstrap-vue": "^2.0.0",
+    "nuxt": "^2.0.0",
+    "zxcvbn": "^4.4.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "node-sass": "^4.14.0",
+    "nodemon": "^2.0.3",
+    "sass-loader": "^8.0.2"
+  }
+}
